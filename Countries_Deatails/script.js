@@ -9,7 +9,7 @@ function reqListener() {
   function reqListener() {
     const CountriesData=JSON.parse(this.responseText);
     for(let ind =0; ind< CountriesData.length; ind++){
-        console.log(CountriesData[ind].name.common, CountriesData[ind].region, CountriesData[ind].subregion);
+        console.log(CountriesData[ind].name.common, CountriesData[ind].region, CountriesData[ind].subregion, CountriesData[ind].population);
     }
   } 
   
